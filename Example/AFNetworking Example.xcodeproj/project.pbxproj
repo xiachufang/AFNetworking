@@ -33,7 +33,6 @@
 		29E6F1A41BB9DD7300A4466C /* Post.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E6F19A1BB9DD7300A4466C /* Post.m */; };
 		29E6F1A51BB9DD7300A4466C /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E6F19C1BB9DD7300A4466C /* User.m */; };
 		29E6F1A61BB9DD7300A4466C /* AFAppDotNetAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E6F19F1BB9DD7300A4466C /* AFAppDotNetAPIClient.m */; };
-		29E6F1AC1BB9DDB600A4466C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29E6F1AB1BB9DDB600A4466C /* Assets.xcassets */; };
 		29E6F1E11BB9E03600A4466C /* Launchscreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29E6F1E01BB9E03600A4466C /* Launchscreen.storyboard */; };
 		29E6F1E91BB9E37200A4466C /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29E6F1E81BB9E37200A4466C /* NotificationCenter.framework */; };
 		29E6F1ED1BB9E37200A4466C /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E6F1EC1BB9E37200A4466C /* TodayViewController.m */; };
@@ -135,7 +134,6 @@
 		29E6F19C1BB9DD7300A4466C /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 		29E6F19E1BB9DD7300A4466C /* AFAppDotNetAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFAppDotNetAPIClient.h; sourceTree = "<group>"; };
 		29E6F19F1BB9DD7300A4466C /* AFAppDotNetAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFAppDotNetAPIClient.m; sourceTree = "<group>"; };
-		29E6F1AB1BB9DDB600A4466C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		29E6F1E01BB9E03600A4466C /* Launchscreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Launchscreen.storyboard; path = "iOS Example/Launchscreen.storyboard"; sourceTree = SOURCE_ROOT; };
 		29E6F1E61BB9E37200A4466C /* iOS Today Extension Example.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "iOS Today Extension Example.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		29E6F1E81BB9E37200A4466C /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
@@ -261,7 +259,6 @@
 		29E6F16A1BB9DA2E00A4466C = {
 			isa = PBXGroup;
 			children = (
-				29E6F1AB1BB9DDB600A4466C /* Assets.xcassets */,
 				29E6F1941BB9DD7300A4466C /* Classes */,
 				29E6F1771BB9DCB500A4466C /* iOS Example */,
 				29E6F1EA1BB9E37200A4466C /* Today Extension Example */,
@@ -583,7 +580,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29E6F1AC1BB9DDB600A4466C /* Assets.xcassets in Resources */,
 				29E6F1E11BB9E03600A4466C /* Launchscreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
